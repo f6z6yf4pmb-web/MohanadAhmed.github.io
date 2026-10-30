@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="مهند أحمد سمير، طالب بمدرسة الرافعي الرسمية للغات بطنطا، قائد فريق العباقرة 2025/2026 وصاحب المركز الثالث في مسابقة الطالب المثالي.">
+<style>:root{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>مهند أحمد سمير</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Reem+Kufi:wght@500;700&display=swap">
+<style>
+  /* Layout: full-width masthead with the name, then a right-hand column for contact details
+     and a wide left-hand column for the CV body. Stacks to one column on phones. */
+  :root {
+    --paper: #F2F4F3;
+    --surface: #FFFFFF;
+    --ink: #101A1E;
+    --muted: #56656A;
+    --line: #D5DCDB;
+    --accent: #1F4FD8;
+    --accent-ink: #FFFFFF;
+    --accent-soft: #E3E9FB;
+    --font-display: 'Reem Kufi', 'Segoe UI', Tahoma, sans-serif;
+    --font-body: 'IBM Plex Sans Arabic', 'Segoe UI', Tahoma, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #0E1518;
+      --surface: #151E22;
+      --ink: #E8EEEC;
+      --muted: #93A3A8;
+      --line: #26343A;
+      --accent: #86A3FF;
+      --accent-ink: #0E1518;
+      --accent-soft: #1B2646;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #0E1518;
+    --surface: #151E22;
+    --ink: #E8EEEC;
+    --muted: #93A3A8;
+    --line: #26343A;
+    --accent: #86A3FF;
+    --accent-ink: #0E1518;
+    --accent-soft: #1B2646;
+    color-scheme: dark;
+  }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.75;
+    padding-block: 36px 56px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  .page { max-width: 1040px; margin-inline: auto; }
+  .page *, .page *::before, .page *::after { box-sizing: border-box; }
+  .page h1, .page h2, .page h3, .page p, .page ul, .page dl, .page dd { margin: 0; padding: 0; }
+  .page ul { list-style: none; }
+
+  /* Masthead */
+  .masthead { padding-bottom: 32px; border-bottom: 2px solid var(--ink); }
+  .eyebrow {
+    font-size: 0.8125rem;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  h1.name {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(2.5rem, 9vw, 4.75rem);
+    line-height: 1.15;
+    text-wrap: balance;
+  }
+  .role {
+    font-size: clamp(1.125rem, 3vw, 1.5rem);
+    font-weight: 500;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+  .summary { max-width: 62ch; margin-top: 20px; font-size: 1.0625rem; }
+
+  /* Two columns */
+  .grid {
+    display: grid;
+    grid-template-columns: 280px minmax(0, 1fr);
+    gap: 48px;
+    padding-top: 36px;
+  }
+  .side { min-width: 0; align-self: start; position: sticky; top: 24px; display: grid; gap: 32px; }
+  .main { min-width: 0; display: grid; gap: 48px; align-content: start; }
+
+  .label {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+  .label::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+
+  /* Contact */
+  .contact { display: grid; gap: 14px; }
+  .contact dt { font-size: 0.8125rem; color: var(--muted); letter-spacing: 0.04em; }
+  .contact dd { overflow-wrap: anywhere; }
+  .ltr { direction: ltr; unicode-bidi: isolate; display: inline-block; text-align: right; }
+  .copy {
+    font: inherit;
+    font-size: 0.8125rem;
+    background: var(--accent-soft);
+    color: var(--accent);
+    border: 0;
+    border-radius: 4px;
+    padding: 2px 10px;
+    margin-inline-start: 8px;
+    cursor: pointer;
+  }
+  .copy:hover { background: var(--accent); color: var(--accent-ink); }
+  .copy:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .langs { display: grid; gap: 8px; }
+  .langs li { display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+  .langs li span:last-child { color: var(--muted); font-size: 0.9375rem; }
+
+  /* Entries */
+  .entry {
+    display: grid;
+    grid-template-columns: 150px minmax(0, 1fr);
+    gap: 6px 28px;
+    padding-block: 22px;
+    border-top: 1px solid var(--line);
+  }
+  .entry:first-of-type { border-top: 0; padding-top: 0; }
+  .when { color: var(--muted); font-size: 0.9375rem; font-variant-numeric: tabular-nums; padding-top: 3px; }
+  .entry h3 { font-size: 1.1875rem; font-weight: 600; line-height: 1.5; }
+  .org { color: var(--accent); font-weight: 500; }
+
+  @media (max-width: 860px) {
+    .grid { grid-template-columns: minmax(0, 1fr); gap: 40px; }
+    .side { position: static; }
+  }
+  @media (max-width: 560px) {
+    .entry { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+    .when { padding-top: 0; }
+    body { padding-block: 24px 40px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page" dir="rtl" lang="ar">
+  <header class="masthead">
+    <p class="eyebrow">السيرة الذاتية</p>
+    <h1 class="name">مهند أحمد سمير</h1>
+    <p class="role">طالب ثانوي وقائد فريق العباقرة</p>
+    <p class="summary">طالب في المرحلة الثانوية بمدرسة الرافعي الرسمية للغات في طنطا. قاد فريق العباقرة في موسم 2025/2026، وحصل على المركز الثالث في مسابقة الطالب المثالي. يتحدث العربية والإنجليزية بمستوى B2 والألمانية بمستوى B1.</p>
+  </header>
+
+  <div class="grid">
+    <aside class="side">
+      <section aria-labelledby="contact-h">
+        <h2 class="label" id="contact-h">التواصل</h2>
+        <dl class="contact">
+          <div>
+            <dt>الموبايل</dt>
+            <dd><span class="ltr" id="tel">01515208118</span><button class="copy" type="button" data-copy="01515208118" data-target="tel">نسخ</button></dd>
+          </div>
+          <div>
+            <dt>البريد الإلكتروني</dt>
+            <dd><span class="ltr" id="mail">mody2008ahmed@icloud.com</span><button class="copy" type="button" data-copy="mody2008ahmed@icloud.com" data-target="mail">نسخ</button></dd>
+          </div>
+        </dl>
+      </section>
+
+      <section aria-labelledby="lang-h">
+        <h2 class="label" id="lang-h">اللغات</h2>
+        <ul class="langs">
+          <li><span>العربية</span><span>اللغة الأم</span></li>
+          <li><span>الإنجليزية</span><span>B2</span></li>
+          <li><span>الألمانية</span><span>B1</span></li>
+        </ul>
+      </section>
+    </aside>
+
+    <main class="main">
+      <section aria-labelledby="lead-h">
+        <h2 class="label" id="lead-h">القيادة والأنشطة</h2>
+        <article class="entry">
+          <p class="when">موسم 2025/2026</p>
+          <div>
+            <h3>قائد فريق العباقرة</h3>
+          </div>
+        </article>
+      </section>
+
+      <section aria-labelledby="award-h">
+        <h2 class="label" id="award-h">الجوائز</h2>
+        <article class="entry">
+          <p class="when">المركز الثالث</p>
+          <div>
+            <h3>مسابقة الطالب المثالي</h3>
+          </div>
+        </article>
+      </section>
+
+      <section aria-labelledby="edu-h">
+        <h2 class="label" id="edu-h">التعليم</h2>
+        <article class="entry">
+          <p class="when">حاليًا</p>
+          <div>
+            <h3>المرحلة الثانوية</h3>
+            <p class="org">مدرسة الرافعي الرسمية للغات، طنطا</p>
+          </div>
+        </article>
+      </section>
+    </main>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('[data-copy]').forEach(function (btn) {
+    var label = btn.textContent;
+    btn.addEventListener('click', function () {
+      function done(msg) {
+        btn.textContent = msg;
+        setTimeout(function () { btn.textContent = label; }, 1600);
+      }
+      function selectText() {
+        var el = document.getElementById(btn.dataset.target);
+        if (!el) return;
+        var r = document.createRange();
+        r.selectNodeContents(el);
+        var s = window.getSelection();
+        s.removeAllRanges();
+        s.addRange(r);
+      }
+      try {
+        navigator.clipboard.writeText(btn.dataset.copy).then(
+          function () { done('تم النسخ'); },
+          function () { selectText(); done('انسخه يدويًا'); }
+        );
+      } catch (e) {
+        selectText();
+        done('انسخه يدويًا');
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
